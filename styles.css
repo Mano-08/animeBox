@@ -1,0 +1,11 @@
+.navbar {
+    position: relative;
+}
+
+.anime-box {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(60, 5, 44);
+    color: rgb(225, 219, 219);
+    font-size: 8em;
+}
