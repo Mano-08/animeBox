@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar {
     position: relative;
 }
@@ -10,13 +14,13 @@
     font-size: 8em;
     margin-bottom: 4%;
 }
-.img-eff {
-    display: inline-block;
+.card-eff {
+    overflow: hidden;
 }
-.img-eff:hover {
-    transform: scale(1.2);
-    overflow: visible;
 
+.img-eff:hover {
+    transition: transform 1.5s;
+    transform: scale(1.27);
 }
 .cards-row {
     margin-left: auto;
@@ -24,5 +28,15 @@
 }
 
 .card {
+    height: 40vh;
     margin: 3% 6% 0;
 }
+
+.bottom-left-img {
+    background-color: rgba(22, 4, 4, 0.603);
+    font-size: 2rem;
+    color:aliceblue;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
