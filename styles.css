@@ -8,13 +8,14 @@ html {
 
 .anime-box {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(60, 5, 44);
-    color: rgb(225, 219, 219);
-    font-size: 8em;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(36, 10, 29);
+    color: rgb(184, 159, 159);
+    font-size: 7.5em;
     margin-bottom: 4%;
 }
 .card-eff {
+    
     overflow: hidden;
 }
 
