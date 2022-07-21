@@ -1,32 +1,30 @@
 html {
     scroll-behavior: smooth;
-    
 }
-
-    
 
 .navbar {
-    position: relative;
+    position: fixed;
 }
 
-
+/*********************************************************************************/
 .card-eff {
-    
     overflow: hidden;
 }
-
+.img-eff {
+    height: 100%;
+}
 .img-eff:hover {
     transition: transform 1.5s;
     transform: scale(1.27);
 }
+.card-index {
+    height: 40vh;
+    margin: 3% 6% 7%;
+}
+
 .cards-row {
     margin-left: auto;
     margin-right:auto;
-}
-
-.card {
-    height: 40vh;
-    margin: 3% 6% 7%;
 }
 
 .bottom-left-img {
@@ -38,6 +36,29 @@ html {
   }
 
 
+
+
+
+
+/***************************************MOVIES*************************************/
+.img-mvs {
+    height: 100%;
+}
+.img-mvs:hover {
+    transition: transform 1.5s;
+    transform: scale(1.27);
+}
+
+.overflow-mvs{
+    overflow: hidden;
+}
+
+.card-mvs {
+    margin:3% 0 2%;
+}
+
+
+
 /********************************ANIME MOTION******************************************/
 
 
@@ -46,7 +67,7 @@ html {
     
     background-color: rgb(36, 10, 29);
     color: rgb(184, 159, 159);
-    height: 60vh;
+    height: 67.7vh;
     margin-bottom: 4%;
     margin-bottom: 32.3vh;
     font-family: 'Open Sans', sans-serif;
@@ -55,6 +76,34 @@ html {
     justify-content: center;
     align-items: center;
   }
+
+  .anime-box-s {
+    font-size:1.2rem;
+    background-color: rgb(36, 10, 29);
+    color: rgb(184, 159, 159);
+    height: 67.7vh;
+    margin-bottom: 4%;
+    margin-bottom: 32.3vh;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+  }
+  .anime-box-m {
+    font-size:1.2rem;
+    background-color: rgb(36, 10, 29);
+    color: rgb(184, 159, 159);
+    height: 67.7vh;
+    margin-bottom: 4%;
+    margin-bottom: 32.3vh;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+  }
+  
   
   h1 {
     font-size: 6.5em;
@@ -117,11 +166,86 @@ html {
   }
 
 
+.end-index-written {
+    font-size: 0.9rem;
+    position: absolute;
+    left: 3vw;
+    margin-top:7vh;
+    color:rgba(108, 90, 67, 0.649);
+}
+    
 
  .contact-box {
+    position: relative;
     height: 35vh;
     margin-top: 12vh;
-    background-color: rgb(54, 3, 43);
+    background-color: rgb(32, 8, 26);
  }
 
- 
+ .anime-box_c {
+    
+    background-color: rgb(36, 10, 29);
+    color: rgb(184, 159, 159);
+    height: 38vh;
+    font-size: 0.5rem;
+    margin-bottom: 4%;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact_c {
+    overflow: hidden;
+  }
+
+  .email {
+    position: absolute;
+    margin-top:2% ;
+    height: 10vw;
+    left:37.5vw;
+  }
+  .twitter {
+    position: absolute;
+    margin-top:2% ;
+    height: 10vw;
+    left:22.5vw;
+
+  }
+  .instagram {
+    position: absolute;
+    margin-top:2% ;
+    height: 10vw;
+    left:67.5vw;
+
+  }
+  .github {
+    position: absolute;
+    margin-top:2% ;
+    height: 10vw;
+    left:52.5vw;
+  }
+  .twitter:hover {
+    transition: transform 1.2s;
+    transform: scale(1.2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.349);
+    border-radius: 23%;
+  }
+  .email:hover {
+    transition: transform 1.2s;
+    transform: scale(1.2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.349);
+    border-radius: 23%;
+  }
+  .github:hover {
+    transition: transform 1.2s;
+    transform: scale(1.2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.349);
+    border-radius: 23%;
+  }
+  .instagram:hover {
+    transition: transform 1.2s;
+    transform: scale(1.2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.349);
+    border-radius: 23%;
+  }
