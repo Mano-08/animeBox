@@ -2,35 +2,33 @@ html {
     scroll-behavior: smooth;
 }
 
-.navbar {
-    position: relative;
+::-webkit-scrollbar {
+    display: none;
 }
 
-.anime-box {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    background-color: rgb(36, 10, 29);
-    color: rgb(184, 159, 159);
-    font-size: 7.5em;
-    margin-bottom: 4%;
+.navbar {
+    position: fixed;
 }
+
+/*********************************************************************************/
 .card-eff {
-    
     overflow: hidden;
 }
-
+.img-eff {
+    height: 100%;
+}
 .img-eff:hover {
     transition: transform 1.5s;
     transform: scale(1.27);
 }
+.card-index {
+    height: 40vh;
+    margin: 3% 6% 7%;
+}
+
 .cards-row {
     margin-left: auto;
     margin-right:auto;
-}
-
-.card {
-    height: 40vh;
-    margin: 3% 6% 0;
 }
 
 .bottom-left-img {
@@ -40,3 +38,230 @@ html {
     bottom: 8px;
     left: 16px;
   }
+
+
+
+
+
+
+/***************************************MOVIES*************************************/
+.img-mvs {
+    height: 100%;
+}
+.img-mvs:hover {
+    transition: transform 1.5s;
+    transform: scale(1.27);
+}
+
+.overflow-mvs{
+    overflow: hidden;
+}
+
+.card-mvs {
+    margin:3% 0 2%;
+}
+
+
+
+/********************************ANIME MOTION******************************************/
+
+
+  
+  .anime-box {
+    
+    background-color: rgb(36, 10, 29);
+    color: rgb(184, 159, 159);
+    height: 67.7vh;
+    margin-bottom: 4%;
+    margin-bottom: 32.3vh;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .anime-box-s {
+    font-size:1.2rem;
+    background-color: rgb(36, 10, 29);
+    color: rgb(184, 159, 159);
+    height: 67.7vh;
+    margin-bottom: 4%;
+    margin-bottom: 32.3vh;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+  }
+  .anime-box-m {
+    font-size:1.2rem;
+    background-color: rgb(36, 10, 29);
+    color: rgb(184, 159, 159);
+    height: 67.7vh;
+    margin-bottom: 4%;
+    margin-bottom: 32.3vh;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+  }
+  
+  
+  h1 {
+    font-size: 6.5em;
+    text-align: center;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  }
+  @keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  span {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+  }
+  
+  span:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(2) {
+    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(3) {
+    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(4) {
+    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(5) {
+    animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(6) {
+    animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  span:nth-child(7) {
+    animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  span:nth-child(8) {
+    animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  span:nth-child(9) {
+    animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  
+  
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+
+
+.end-index-written {
+    font-size: 0.9rem;
+    position: absolute;
+    left: 3vw;
+    margin-top:7vh;
+    color:rgba(108, 90, 67, 0.649);
+}
+    
+
+ .contact-box {
+    position: relative;
+    height: 35vh;
+    margin-top: 12vh;
+    background-color: rgb(32, 8, 26);
+ }
+
+ .anime-box_c {
+    
+    background-color: rgb(36, 10, 29);
+    color: rgb(184, 159, 159);
+    height: 38vh;
+    font-size: 0.5rem;
+    margin-bottom: 4%;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact_c {
+    overflow: hidden;
+  }
+
+  .email {
+    position: absolute;
+    margin-top:2% ;
+    height: 10vw;
+    left:37.5vw;
+  }
+  .twitter {
+    position: absolute;
+    margin-top:2% ;
+    height: 10vw;
+    left:22.5vw;
+
+  }
+  .instagram {
+    position: absolute;
+    margin-top:2% ;
+    height: 10vw;
+    left:67.5vw;
+
+  }
+  .github {
+    position: absolute;
+    margin-top:2% ;
+    height: 10vw;
+    left:52.5vw;
+  }
+  .twitter:hover {
+    transition: transform 1.2s;
+    transform: scale(1.2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.349);
+    border-radius: 23%;
+  }
+  .email:hover {
+    transition: transform 1.2s;
+    transform: scale(1.2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.349);
+    border-radius: 23%;
+  }
+  .github:hover {
+    transition: transform 1.2s;
+    transform: scale(1.2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.349);
+    border-radius: 23%;
+  }
+  .instagram:hover {
+    transition: transform 1.2s;
+    transform: scale(1.2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.349);
+    border-radius: 23%;
+  }
+
+
+  /*************************SUGGESTION****************************/
+
+  .suggestion {
+    background-color: rgb(36, 10, 29);
+    
+    height: 95vh;
+    width: 100%;
+  }
+
+  
