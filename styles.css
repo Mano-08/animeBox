@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .navbar {
     position: fixed;
 }
@@ -249,3 +253,15 @@ html {
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.349);
     border-radius: 23%;
   }
+
+
+  /*************************SUGGESTION****************************/
+
+  .suggestion {
+    background-color: rgb(36, 10, 29);
+    
+    height: 95vh;
+    width: 100%;
+  }
+
+  
