@@ -25,7 +25,7 @@ html {
 }
 .card-index {
     
-    margin: 3% 3% 7% 5%;
+    margin: 3% 3% 12% 5%;
 }
 
 .cards-row {
@@ -328,6 +328,11 @@ html {
        
     }
 
+    .card-index {
+    
+        margin: 3% 5% 10%;
+    }
+
 
     .img-eff {
         object-fit: cover;
@@ -338,6 +343,11 @@ html {
 
   @media only screen and (max-width: 768px) {
 
+
+    .card-index {
+    
+        margin: 3% 3% 6%;
+    }
     .img-eff {
         object-fit: cover;
         width: 95vw; /* width of container */
