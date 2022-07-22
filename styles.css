@@ -24,8 +24,8 @@ html {
     transform: scale(1.27);
 }
 .card-index {
-    height: 40vh;
-    margin: 3% 6% 7%;
+    
+    margin: 3% 3% 5% 7%;
 }
 
 .cards-row {
@@ -326,6 +326,13 @@ html {
         height: 35vh /* height of container */
     
        
+    }
+
+
+    .img-eff {
+        object-fit: cover;
+        width: 45vw; /* width of container */
+        height: 40vh /* height of container */
     }
   }
 
