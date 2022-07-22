@@ -181,8 +181,27 @@
                       </div>
                 </a></span>
             </div>
-
             
+        </div>
+
+
+        <div class="suggestion">
+            
+            <h1><span style="color:rgb(152, 130, 130); font-size:4rem ; margin:3.9% 0%;">SUGGESTION BOX.</span></h1>
+            
+            <form action="https://formspree.io/f/mrgjnldy" method="POST" >
+                
+                <input type="text" name="Name" value="MOVIES SUGGESTION" placeholder="Your name" style="display:none ;" required>
+                
+                <input type="email" name="Email" value="movies@f.com" style="display:none ;">
+                
+                <textarea name="message" id="editor" placeholder="Animated movies you'd love suggesting ....." required></textarea>
+                
+                <button type="submit" id="submit_button" onclick="reset_val()">
+                    Submit
+                </button>
+            </form>
+            <div class="success_message" id="success_message" style="display:none ;" >Thanks for suggesting! :) <img src="https://media0.giphy.com/media/E6g4A8BhBjmTXSBUOB/giphy.gif?cid=790b7611ab19b8ddecd115f8a38f24def5dfbe8b442ab0be&rid=giphy.gif&ct=s" id="cat_gif"></div>
             
         </div>
         

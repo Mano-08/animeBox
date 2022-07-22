@@ -260,13 +260,15 @@ body {
   /*************************SUGGESTION****************************/
 
   .suggestion {
+    margin-top: 15vh;
     background-color: rgb(36, 10, 29);
     position: relative;
-    height: 95vh;
+    height: 94.5vh;
     width: 100%;
   }
 
   #editor {
+    opacity: 0.7;
     position: absolute;
     width: 50vw;
     left: 25vw;
@@ -277,7 +279,7 @@ body {
     top:65vh;
     color: rgb(227, 207, 207);
     font-weight: 500;
-    
+    font-size: 1.2rem;
     border-radius: 2px;
     position: absolute;
     height: 8vh;
@@ -291,6 +293,63 @@ body {
     transform:scale(1.05);
   }
 
-  @media screen {
+  .success_message {
     
+    background-color: rgba(30, 3, 3, 0.375);
+    font-family: cursive;
+    font-size: 1.75rem;
+    font-weight: 100;
+    position: absolute;
+    color: rgb(0, 249, 249);
+    top:76vh;
+    left:34.5vw;
   }
+
+  #cat_gif {
+    width: 8vw;
+  }
+
+  @media only screen and (max-width: 768px) {
+    
+
+  #editor {
+    position: absolute;
+    width: 80vw;
+    left: 10vw;
+    height: 35vh;
+  }
+
+  #submit_button {
+    top:70.5vh;
+    color: rgb(227, 207, 207);
+    font-weight: 500;
+    
+    border-radius: 6px;
+    position: absolute;
+    height: 8vh;
+    width: 35vw;
+    right:32.5vw;
+    background-color: rgba(41, 141, 18, 0.982);
+  }
+
+  #submit_button:hover {
+    transition: transform 1s;
+    transform:scale(1.08);
+  }
+  .success_message {
+    font-family: cursive;
+    background-color: rgba(30, 3, 3, 0.375);
+    font-size: 1rem;
+    font-weight: 200;
+    position: absolute;
+    color: rgb(0, 249, 249);
+    top:80vh;
+    left:30vw;
+  }
+  #cat_gif {
+    width: 13vw;
+  }
+
+  }
+
+  

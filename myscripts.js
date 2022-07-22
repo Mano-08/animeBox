@@ -1,8 +1,15 @@
+let editEle = document.getElementById('editor');
+let messageEle = document.getElementById('success_message');
+
 function new_fun() {
-  document.getElementById('editor').value = '';
+  editEle.value = '';
 }
 
 function reset_val() {
-  setTimeout(new_fun,1)
+  setTimeout(new_fun,2)
+  messageEle.removeAttribute('style');
+  setTimeout(function() {
+    messageEle.style.display = 'none';
+  },2500)
 }
 
