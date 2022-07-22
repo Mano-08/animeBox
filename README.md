@@ -1,4 +1,4 @@
-# suggest-me-anime
+# suggest-me-some-anime
 
 ![new](images/movies.png)
 
