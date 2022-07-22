@@ -9,6 +9,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!------------------BOOTSTRAP-------------------->
+        
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">    </head>
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -192,30 +194,31 @@
             
         </div>
 
-        <div class="suggestion" id="suggestion-series">
+
+
+
+        <div class="suggestion">
             
+            <h1><span style="color:rgb(152, 130, 130); font-size:4rem ; margin:3.9% 0%;">SUGGESTION BOX.</span></h1>
+            
+            <form action="https://formspree.io/f/mrgjnldy" method="POST" >
+                
+                <input type="text" name="Name" value="SERIES SUGGESTION" placeholder="Your name" style="display:none ;" required>
+                
+                <input type="email" name="Email" value="f@f.com" style="display:none ;">
+                
+                <textarea name="message" id="editor" placeholder="Anime series you'd love suggesting :)" required></textarea>
+                
+                <button type="submit" id="submit_button" onclick="reset_val()">
+                    Submit
+                </button>
+            </form>
 
         </div>
         
-        
-    
-        <form action="https://formspree.io/f/mrgjnldy" method="POST" >
-
-        >
-            <input type="text" name="Name" required>
-            <input type="email" name="Email" required>
-            <textarea name="message" placeholder="Message" required>
-
-            </textarea>
-            <button type="submit">
-                Submit
-            </button>
-        </form>
-
-
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+        <script src="myscripts.js"></script>
     </body>
 </html>

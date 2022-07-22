@@ -1,7 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
-
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 ::-webkit-scrollbar {
     display: none;
 }
@@ -259,9 +261,36 @@ html {
 
   .suggestion {
     background-color: rgb(36, 10, 29);
-    
+    position: relative;
     height: 95vh;
     width: 100%;
   }
 
-  
+  #editor {
+    position: absolute;
+    width: 50vw;
+    left: 25vw;
+    height: 30vh;
+  }
+
+  #submit_button {
+    top:65vh;
+    color: rgb(227, 207, 207);
+    font-weight: 500;
+    
+    border-radius: 2px;
+    position: absolute;
+    height: 8vh;
+    width: 25vw;
+    right:37.5vw;
+    background-color: rgba(41, 141, 18, 0.982);
+  }
+
+  #submit_button:hover {
+    transition: transform 1s;
+    transform:scale(1.05);
+  }
+
+  @media screen {
+    
+  }
