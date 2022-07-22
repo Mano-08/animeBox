@@ -176,11 +176,14 @@ html {
 
 
 .end-index-written {
-    bottom:2vh;
-    font-size: 0.9rem;
+    bottom: 0vh;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
     position: absolute;
-    left: 3vw;
-    margin-top:7vh;
+    text-align: center;
+    font-size: 0.9rem;
     color:rgba(108, 90, 67, 0.649);
 }
     
