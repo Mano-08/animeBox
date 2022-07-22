@@ -322,16 +322,12 @@ html {
   @media only screen and (max-width: 990px) and (min-width: 769px){
     .img-mvs {
         object-fit: cover;
-        width: 29vw; /* width of container */
+        width: 30vw; /* width of container */
         height: 35vh /* height of container */
     
        
     }
 
-    .card-index {
-    
-        margin: 3% 5% 10%;
-    }
 
 
     .img-eff {
