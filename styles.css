@@ -176,6 +176,7 @@ html {
 
 
 .end-index-written {
+    bottom:2vh;
     font-size: 0.9rem;
     position: absolute;
     left: 3vw;
