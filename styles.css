@@ -1,9 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
-body {
-    font-family: 'Open Sans', sans-serif;
-}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -48,7 +46,11 @@ body {
 
 /***************************************MOVIES*************************************/
 .img-mvs {
-    height: 100%;
+    object-fit: cover;
+    width: 20vw; /* width of container */
+    height: 35vh /* height of container */
+
+   
 }
 .img-mvs:hover {
     transition: transform 1.5s;
@@ -56,6 +58,7 @@ body {
 }
 
 .overflow-mvs{
+    object-fit: cover;
     overflow: hidden;
 }
 
@@ -260,6 +263,7 @@ body {
   /*************************SUGGESTION****************************/
 
   .suggestion {
+    font-family: 'Open Sans', sans-serif;
     margin-top: 15vh;
     background-color: rgb(36, 10, 29);
     position: relative;
@@ -268,7 +272,7 @@ body {
   }
 
   #editor {
-    opacity: 0.7;
+    opacity: 0.8;
     position: absolute;
     width: 50vw;
     left: 25vw;
@@ -309,9 +313,25 @@ body {
     width: 8vw;
   }
 
+  @media only screen and (max-width: 990px) and (min-width: 769px){
+    .img-mvs {
+        object-fit: cover;
+        width: 29vw; /* width of container */
+        height: 35vh /* height of container */
+    
+       
+    }
+  }
+
   @media only screen and (max-width: 768px) {
     
-
+    .img-mvs {
+        object-fit: cover;
+        width: 45vw; /* width of container */
+        height: 35vh /* height of container */
+    
+       
+    }
   #editor {
     position: absolute;
     width: 80vw;
