@@ -15,7 +15,9 @@ html {
     overflow: hidden;
 }
 .img-eff {
-    height: 100%;
+    object-fit: cover;
+    width: 30vw; /* width of container */
+    height: 40vh; 
 }
 .img-eff:hover {
     transition: transform 1.5s;
@@ -48,7 +50,7 @@ html {
 .img-mvs {
     object-fit: cover;
     width: 20vw; /* width of container */
-    height: 35vh /* height of container */
+    height: 35vh; /* height of container */
 
    
 }
@@ -328,6 +330,12 @@ html {
   }
 
   @media only screen and (max-width: 768px) {
+
+    .img-eff {
+        object-fit: cover;
+        width: 95vw; /* width of container */
+        height: 40vh /* height of container */
+    }
     
     .img-mvs {
         object-fit: cover;
