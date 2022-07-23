@@ -319,6 +319,11 @@ html {
     width: 8vw;
   }
 
+  #sugg-box {
+    color:rgb(152, 130, 130); 
+    font-size:4rem ; 
+    margin:3.9% 0%;
+  }
   @media only screen and (max-width: 990px) and (min-width: 769px){
     .img-mvs {
         object-fit: cover;
@@ -336,6 +341,18 @@ html {
         height: 40vh /* height of container */
     }
   }
+
+  @media only screen and (max-width: 380px) {
+    #sugg-box {
+      color:rgb(152, 130, 130); 
+      font-size:3rem ; 
+      margin:3.9% 0%;
+    }
+    #movies-box {
+      font-size:4.5rem ;
+    }
+  }
+
 
   @media only screen and (max-width: 768px) {
 
