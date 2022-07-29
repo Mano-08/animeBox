@@ -189,7 +189,18 @@ html {
     color:rgba(108, 90, 67, 0.649);
 }
     
-
+#star {
+  width: 0.99vw;
+  margin-right:0.3vw;
+}
+#merge {
+  width: 0.7vw;
+  margin-right:0.2vw;
+  color: aqua;
+}
+#mano {
+  color:rgba(225, 213, 45, 0.442);
+}
  .contact-box {
     position: relative;
     height: 35vh;
