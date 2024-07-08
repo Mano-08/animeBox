@@ -1,0 +1,427 @@
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar {
+    position: fixed;
+}
+
+/*********************************************************************************/
+.card-eff {
+    overflow: hidden;
+}
+.img-eff {
+    object-fit: cover;
+    width: 30vw; /* width of container */
+    height: 40vh; 
+}
+.img-eff:hover {
+    transition: transform 1.5s;
+    transform: scale(1.27);
+}
+.card-index {
+    
+    margin: 3% 5% 12% 10%;
+}
+
+.cards-row {
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.bottom-left-img {
+    font-size: 2rem;
+    color:aliceblue;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+
+
+
+
+
+/***************************************MOVIES*************************************/
+.img-mvs {
+    object-fit: cover;
+    width: 20vw; /* width of container */
+    height: 35vh; /* height of container */
+
+   
+}
+.img-mvs:hover {
+    transition: transform 1.5s;
+    transform: scale(1.27);
+}
+
+.overflow-mvs{
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.card-mvs {
+    margin:3% 0 2%;
+}
+
+
+
+/********************************ANIME MOTION******************************************/
+
+
+  
+  .anime-box {
+    
+    background-color: rgb(36, 10, 29);
+    color: rgb(184, 159, 159);
+    height: 67.7vh;
+    margin-bottom: 4%;
+    margin-bottom: 32.3vh;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .anime-box-s {
+    font-size:1.2rem;
+    background-color: rgb(36, 10, 29);
+    color: rgb(184, 159, 159);
+    height: 67.7vh;
+    margin-bottom: 4%;
+    margin-bottom: 32.3vh;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+  }
+  .anime-box-m {
+    font-size:1.2rem;
+    background-color: rgb(36, 10, 29);
+    color: rgb(184, 159, 159);
+    height: 67.7vh;
+    margin-bottom: 4%;
+    margin-bottom: 32.3vh;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+  }
+  
+  
+  h1 {
+    font-size: 6.5em;
+    text-align: center;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  }
+  @keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  span {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+  }
+  
+  span:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(2) {
+    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(3) {
+    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(4) {
+    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(5) {
+    animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(6) {
+    animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  span:nth-child(7) {
+    animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  span:nth-child(8) {
+    animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  span:nth-child(9) {
+    animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  
+  
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+
+
+.end-index-written {
+    bottom: 0vh;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    position: absolute;
+    text-align: center;
+    font-size: 0.9rem;
+    color:rgba(108, 90, 67, 0.649);
+}
+    
+#star {
+  width: 0.99vw;
+  margin-right:0.3vw;
+}
+#merge {
+  width: 0.7vw;
+  margin-right:0.2vw;
+  color: aqua;
+}
+#mano {
+  color:rgba(225, 213, 45, 0.442);
+}
+ .contact-box {
+    position: relative;
+    height: 35vh;
+    margin-top: 12vh;
+    background-color: rgb(32, 8, 26);
+ }
+
+ .anime-box_c {
+    
+    background-color: rgb(36, 10, 29);
+    color: rgb(184, 159, 159);
+    height: 38vh;
+    font-size: 0.5rem;
+    margin-bottom: 4%;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact_c {
+    overflow: hidden;
+  }
+
+  .email {
+    position: absolute;
+    margin-top:2% ;
+    height: 10vw;
+    left:37.5vw;
+  }
+  .twitter {
+    position: absolute;
+    margin-top:2% ;
+    height: 10vw;
+    left:22.5vw;
+
+  }
+  .instagram {
+    position: absolute;
+    margin-top:2% ;
+    height: 10vw;
+    left:67.5vw;
+
+  }
+  .github {
+    position: absolute;
+    margin-top:2% ;
+    height: 10vw;
+    left:52.5vw;
+  }
+  .twitter:hover {
+    transition: transform 1.2s;
+    transform: scale(1.2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.349);
+    border-radius: 23%;
+  }
+  .email:hover {
+    transition: transform 1.2s;
+    transform: scale(1.2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.349);
+    border-radius: 23%;
+  }
+  .github:hover {
+    transition: transform 1.2s;
+    transform: scale(1.2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.349);
+    border-radius: 23%;
+  }
+  .instagram:hover {
+    transition: transform 1.2s;
+    transform: scale(1.2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.349);
+    border-radius: 23%;
+  }
+
+
+  /*************************SUGGESTION****************************/
+
+  .suggestion {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15vh;
+    background-color: rgb(36, 10, 29);
+    position: relative;
+    height: 94.5vh;
+    width: 100%;
+  }
+
+  #editor {
+    opacity: 0.8;
+    position: absolute;
+    width: 50vw;
+    left: 25vw;
+    height: 30vh;
+  }
+
+  #submit_button {
+    top:65vh;
+    color: rgb(227, 207, 207);
+    font-weight: 500;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    position: absolute;
+    height: 8vh;
+    width: 25vw;
+    right:37.5vw;
+    background-color: rgba(41, 141, 18, 0.982);
+  }
+
+  #submit_button:hover {
+    transition: transform 1s;
+    transform:scale(1.05);
+  }
+
+  .success_message {
+    
+    background-color: rgba(30, 3, 3, 0.375);
+    font-family: cursive;
+    font-size: 1.75rem;
+    font-weight: 100;
+    position: absolute;
+    color: rgb(0, 249, 249);
+    top:76vh;
+    left:34.5vw;
+  }
+
+  #cat_gif {
+    width: 8vw;
+  }
+
+  #sugg-box {
+    color:rgb(152, 130, 130); 
+    font-size:4rem ; 
+    margin:3.9% 0%;
+  }
+  @media only screen and (max-width: 990px) and (min-width: 769px){
+    .img-mvs {
+        object-fit: cover;
+        width: 29vw; /* width of container */
+        height: 35vh /* height of container */
+    
+       
+    }
+
+
+
+    .img-eff {
+        object-fit: cover;
+        width: 45vw; /* width of container */
+        height: 40vh /* height of container */
+    }
+  }
+
+  @media only screen and (max-width: 380px) {
+    #sugg-box {
+      color:rgb(152, 130, 130); 
+      font-size:3rem ; 
+      margin:3.9% 0%;
+    }
+    #movies-box {
+      font-size:4.5rem ;
+    }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+
+
+    .card-index {
+        margin: 3% 3% 6%;
+    }
+    .img-eff {
+        object-fit: cover;
+        width: 95vw; /* width of container */
+        height: 40vh /* height of container */
+    }
+    
+    .img-mvs {
+        object-fit: cover;
+        width: 45vw; /* width of container */
+        height: 35vh /* height of container */
+    
+       
+    }
+  #editor {
+    position: absolute;
+    width: 80vw;
+    left: 10vw;
+    height: 35vh;
+  }
+
+  #submit_button {
+    top:70.5vh;
+    color: rgb(227, 207, 207);
+    font-weight: 500;
+    
+    border-radius: 6px;
+    position: absolute;
+    height: 8vh;
+    width: 35vw;
+    right:32.5vw;
+    background-color: rgba(41, 141, 18, 0.982);
+  }
+
+  #submit_button:hover {
+    transition: transform 1s;
+    transform:scale(1.08);
+  }
+  .success_message {
+    font-family: cursive;
+    background-color: rgba(30, 3, 3, 0.375);
+    font-size: 1rem;
+    font-weight: 200;
+    position: absolute;
+    color: rgb(0, 249, 249);
+    top:80vh;
+    left:30vw;
+  }
+  #cat_gif {
+    width: 13vw;
+  }
+
+  }
+
+  
